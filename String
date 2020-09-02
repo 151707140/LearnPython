@@ -1,0 +1,5 @@
+#format 格式要求
+#1. format % values
+format = "Hellow, %s, I am %s"
+values = ("world","Jules")
+format % values

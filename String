@@ -1,5 +1,8 @@
 #format 格式要求
-#1. format % values
-format = "Hellow, %s, I am %s"
+#1. str % values
+str1 = "Hellow, %s, I am %s"
 values = ("world","Jules")
-format % values
+str1 % values
+
+#2 .format()
+str1.format(values)
